@@ -1,21 +1,12 @@
 {
-  "name": "vortexsupport",
+  "name": "vortex-transcript-server",
   "version": "1.0.0",
-  "description": "Bot de soporte para VortexGG",
-  "main": "src/index.js",
-  "type": "commonjs",
+  "description": "Servidor de transcripts para VortexGG",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "deploy": "node src/deploy-commands.js"
+    "start": "node server.js"
   },
-  "dependencies": {
-    "discord.js": "^14.14.1",
-    "sql.js": "^1.12.0",
-    "axios": "^1.6.7",
-    "dotenv": "^16.4.5"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+  "engines": {
+    "node": ">=18"
   }
 }
